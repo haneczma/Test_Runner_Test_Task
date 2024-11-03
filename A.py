@@ -3,14 +3,18 @@ from random import randint
 
 
 def Hi():
+    # prints "Hi" on stdout
     print("Hi")
 
 
 def GetRandom():
+    # prints a random integer on stdout
     print(randint(-sys.maxsize, sys.maxsize))
 
 
 def Shutdown():
+    # terminates the program gracefully
+    print("Program A has been terminated.")
     sys.exit()
 
 
